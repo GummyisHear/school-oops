@@ -1,5 +1,7 @@
-﻿using oops.inimene;
+﻿using oops.geomeetria;
+using oops.inimene;
 using oops.loom;
+using oops.sõiduk;
 
 namespace oops;
 
@@ -44,5 +46,8 @@ internal class Program
         //kass.TeeHaal();
         //kass.Eat();
         //kass.Move();
+
+        //Geomeetria.Run();
+        Sõiduk.Run();
     }
 }

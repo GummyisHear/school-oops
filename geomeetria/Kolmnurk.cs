@@ -17,7 +17,7 @@ public class Kolmnurk : IKujund
 
     public double ArvutaPindala()
     {
-        double s = ArvutaÜmbermõõt() / 2;
+        double s = ArvutaÜmbermõõt() / 2.0;
         return Math.Sqrt(s * (s - A) * (s - B) * (s - C)); // Heroni valem
     }
 }

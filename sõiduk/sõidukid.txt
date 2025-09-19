@@ -1,0 +1,4 @@
+Jalgratas, 10
+Buss, 100, 30, 15
+Auto, 500, 20
+Auto, 59, 100

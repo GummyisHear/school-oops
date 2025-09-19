@@ -1,12 +1,13 @@
 ﻿namespace oops.loom;
 
-public class Loom
+public abstract class Loom
 {
     public string Nimi;
     public string Liik;
 
-    public virtual void TeeHaal()
-    {
-        Console.WriteLine("Loom teeb häält.");
-    }
+    public abstract void TeeHaal();
+
+    public abstract void Move();
+
+    public abstract void Eat();
 }
